@@ -16,14 +16,16 @@ ul{
     float: right;
     list-style-type: none;
     margin-top: 2.5rem;
+    font-size: 2.1rem;
 }
 ul li{
     display: inline;
 }
 ul li a{
     text-decoration:none;
+    font-size: 1.rem;
     color:#fff;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 1.4rem;
     border: 0.1rem solid transparent;
     transition: 0.6s ease;
 }
@@ -42,7 +44,7 @@ ul li.active a{
 .botton{
     position: absolute;
     box-sizing:content-box;
-    text-size-adjust: 12rem;
+    font-size: 1.4rem;
     top: 96%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -68,11 +70,11 @@ ul li.active a{
 .visitor{
     margin-bottom: 3.rem;
     color: white;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 .development{
     position: absolute;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     top: 35%;
     left: 80%;
     color: red;
@@ -85,6 +87,7 @@ ul li.active a{
     left: 76%;
     background-color: #fff;
     text-decoration: #fff;
+    font-size: 1.8rem;
     transform: translate(-50%,-50%);
     font-family: 'Times New Roman', Times, serif;
     
