@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Century Gothinc;
 }
+html{
+    font-size: 62.5%;
+}
 header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../sp1.jpg);
     height: 150vh;
@@ -12,7 +15,7 @@ header{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 2.5rem;
 }
 ul li{
     display: inline;
@@ -20,8 +23,8 @@ ul li{
 ul li a{
     text-decoration:none;
     color:#fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
+    padding: 0.5rem 3rem;
+    border: 0.1rem solid transparent;
     transition: 0.6s ease;
 }
 ul li a:hover{
@@ -33,18 +36,20 @@ ul li.active a{
     color: black;
 }
 .main{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: auto;
 }
 .botton{
     position: absolute;
+    box-sizing:content-box;
+    text-size-adjust: 12rem;
     top: 96%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .btn{
-    border: 1px solid white;
-    padding: 10px 30px;
+    border: 0.1rem solid white;
+    padding: 1rem 30px;
     color: #fff;
     text-decoration: none;
     transition: 0.6s ease;
@@ -58,14 +63,16 @@ ul li.active a{
     position: static;
     text-align: center;
     text-emphasis-color: white;
-    background-color: black;
+    background-color: white;
 }
 .visitor{
-    margin-bottom: 30px;
+    margin-bottom: 3.rem;
     color: white;
+    font-size: 1.4rem;
 }
 .development{
     position: absolute;
+    font-size: 1.2rem;
     top: 35%;
     left: 80%;
     color: red;
@@ -81,6 +88,16 @@ ul li.active a{
     transform: translate(-50%,-50%);
     font-family: 'Times New Roman', Times, serif;
     
+}
+@media(max-width: 998px) {
+    html{
+        font-size: 55%;
+    }   
+}
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+    }
 }
 
   
