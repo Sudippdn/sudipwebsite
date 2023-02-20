@@ -66,6 +66,7 @@ ul li.active a{
     text-align: center;
     text-emphasis-color: white;
     background-color: white;
+    font-size: 3.5rem;
 }
 .visitor{
     margin-bottom: 3.rem;
